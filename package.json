@@ -1,27 +1,26 @@
 {
-  "name": "dev_api_js",
+  "name": "webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3",
+    "webpack": "^4.29.6"
+  },
   "scripts": {
-    "start": "nodemon index.js --exec babel-node",
-    "build": "babel index.js -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "= <=> (=)",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "nodemon": "^1.12.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoolofnetcom/dev-api-nodejs-rev-2.git"
   },
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "cep-promise": "^2.0.5",
-    "cors": "^2.8.4",
-    "express": "^4.15.4",
-    "mongoose": "^4.11.10",
-    "morgan": "^1.8.2"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schoolofnetcom/dev-api-nodejs-rev-2/issues"
+  },
+  "homepage": "https://github.com/schoolofnetcom/dev-api-nodejs-rev-2#readme"
 }
