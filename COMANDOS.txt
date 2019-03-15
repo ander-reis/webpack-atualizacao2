@@ -1,0 +1,5 @@
+compilar webpack
+npx webpack .\modules\es6\index-sync.js -o .\dist\modules\index.js
+
+compilar webpack com watch
+npx webpack .\modules\es6\index-sync.js -o .\dist\modules\index.js -w
